@@ -1,0 +1,21 @@
+.nav {
+  margin: 20px auto 0;
+  text-align: start;
+  background-color: #414141;
+  border-radius: 8px;
+}
+
+.link {
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: 600;
+  color: #aaa;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.activeLink {
+  composes: link;
+  color: #EC625FCB;
+}
