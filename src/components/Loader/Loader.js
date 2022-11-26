@@ -1,21 +1,13 @@
-import { Grid } from 'react-loader-spinner';
+import React from 'react';
+import { Oval } from 'react-loader-spinner';
+import styles from './loader.module.css';
 
-export default function LoaderComponent() {
-  return (
-    <Grid
-      height="80"
-      width="80"
-      color="#4fa94d"
-      ariaLabel="grid-loading"
-      radius="12.5"
-      wrapperStyle={{
-        position: 'fixed',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
-      }}
-      wrapperClass=""
-      visible={true}
-    />
-  );
-}
+const Loader = () => (
+  <div className={styles.mainWrapper}>
+    <div className={styles.wrapper}>
+      <Oval color="orange" width={80} height={80} />
+    </div>
+  </div>
+);
+
+export default Loader;
