@@ -2,7 +2,7 @@
   "name": "goit-react-hw-05-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://suprunyuk-a.github.io/goit-react-hw-04-images/",
+  "homepage": "https://suprunyuk-a.github.io/goit-react-hw-05-movies/",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/lab": "^4.0.0-alpha.61",
