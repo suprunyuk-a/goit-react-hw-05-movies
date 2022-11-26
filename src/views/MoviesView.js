@@ -20,7 +20,7 @@ const MoviesView = () => {
       return;
     }
     setQuery('');
-  }, [search]);
+  }, [search, setQuery]);
 
   useEffect(() => {
     let cancelled = false;
@@ -36,7 +36,7 @@ const MoviesView = () => {
     return () => {
       cancelled = true;
     };
-  }, [query]);
+  }, [navigate, pathname, query]);
 
   const onSubmit = query => setQuery(query);
 

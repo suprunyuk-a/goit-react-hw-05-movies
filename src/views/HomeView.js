@@ -8,7 +8,7 @@ const HomeView = () => {
 
   useEffect(() => {
     setQuery('');
-  }, []);
+  }, [setQuery]);
 
   return (
     <>
